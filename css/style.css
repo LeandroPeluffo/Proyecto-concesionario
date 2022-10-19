@@ -5,32 +5,37 @@
 }
 
 header{
-    text-decoration: none;
     background-color: black;
-    background-size: 100%;
     display: flex;
-    align-content: center;
-    justify-content: center;
+    justify-content:space-between;
     align-items: center;
-}   
-.imgInicio{
-    display: flex;
+    padding: 30px 10%;
+    font-size: 32px;
+    font-family: 'italiana';
 }
 
-.barra{
-    display: inline;
-    justify-content: center;
-    flex-direction: row;
-    align-items: center;
-    text-decoration: none;
-    font-family: 'Italiana';
-    color: red;
-    font-size: 32px;
+header div nav ul div{
+    display: inline-block;
+    padding: 0px 20px 50px;
+    justify-content: space-between;
+
+}   
+
+.logo{
+    position:static;
 }
+
 
 .autoVW{
     width: 100%;
 }
+
+.mercedes{
+    display: grid;
+    justify-content:space-around;
+    align-items: baseline;
+}
+
 
 .ingreseBox{
     position: absolute;
@@ -43,6 +48,15 @@ header{
     font-size: 40px;
 }
 
+
+
+.fechaYHora{
+    margin: 50px 20px 20px 40px;
+    background-color: beige;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+}
 section{
     display: flex;
 
@@ -54,9 +68,12 @@ section div{
 
 }
 .mapas{
+    margin: 50px 50px 50px 50px;
     display: grid;
     text-align: center;
-    justify-content:center;
+    justify-content:space-around;
+    align-items: baseline;
+    max-width: fit-content;
     }
 
 
@@ -65,7 +82,6 @@ form{
     justify-content: center;
     margin: 150px 400px 200px 400px;
     text-align: center;
-    
 }
 
 .testDriveTexto{
