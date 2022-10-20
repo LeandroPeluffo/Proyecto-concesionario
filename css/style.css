@@ -4,6 +4,11 @@
     box-sizing: border-box;
 }
 
+a{
+    text-decoration: none;
+    color: white;
+}
+
 header{
     background-color: black;
     display: flex;
@@ -12,6 +17,7 @@ header{
     padding: 30px 10%;
     font-size: 32px;
     font-family: 'italiana';
+    
 }
 
 header div nav ul div{
@@ -30,11 +36,15 @@ header div nav ul div{
     width: 100%;
 }
 
+
 .mercedes{
     display: grid;
     justify-content:space-around;
     align-items: baseline;
+    flex-direction: column;
+    
 }
+
 
 
 .ingreseBox{
