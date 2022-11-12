@@ -1,0 +1,13 @@
+@media (max-width: 768px) {
+    .mercedes {
+      width: 768px;
+      grid-template-rows: repeat(4, 1fr);
+      grid-column-gap: 0px;
+      grid-row-gap: 0px;
+      grid-template-areas: 
+      "slider-frameM"
+      "slider-frameM2"
+      "slider-frameM3"
+      "SUV"; } 
+}
+

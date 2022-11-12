@@ -1,0 +1,124 @@
+.nombre-Auto {
+    text-align: center;
+    font-size: 25px;
+    font-family: 'italiana'; 
+}
+
+.mercedes {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    grid-template-areas: 
+    "slider-frameM slider-frameM2"
+    "slider-frameM3 SUV"; }
+
+.slider-frameM {
+    width: 30%;
+    height: auto;
+    margin: 50px auto 0;
+    overflow: hidden; }
+
+.slider-frameM ul {
+    display: flex;
+    padding: 0;
+    width: 400%;
+    animation: slide-de-4 16s infinite alternate ease-in-out; }
+
+.slider-frameM li {
+    width: 100%;
+    list-style: none; }
+
+.slider-frameM img {
+    width: 100%; }
+
+@keyframes slide-de-4 {
+    0% {
+    margin-left: 0; }
+    20% {
+    margin-left: 0; }
+    25% {
+    margin-left: -100%; }
+    45% {
+    margin-left: -100%; }
+    50% {
+    margin-left: -200%; }
+    70% {
+    margin-left: -200%; }
+    75% {
+    margin-left: -300%; }
+    100% {
+    margin-left: -300%; } }
+
+.slider-frameM2 {
+    width: 30%;
+    height: auto;
+    margin: 50px auto 0;
+    overflow: hidden; }
+
+.slider-frameM2 ul {
+    display: flex;
+    padding: 0;
+    width: 300%;
+    animation: slide-de-3 12s infinite alternate ease-in-out; }
+
+.slider-frameM2 li {
+    width: 100%;
+    list-style: none; }
+
+.slider-frameM2 img {
+    width: 100%; }
+
+@keyframes slide-de-3 {
+    0% {
+    margin-left: 0; }
+    30% {
+    margin-left: 0; }
+    35% {
+    margin-left: -100%; }
+    65% {
+    margin-left: -100%; }
+    70% {
+    margin-left: -200%; }
+    100% {
+    margin-left: -200%; } }
+
+.slider-frameM3 {
+    width: 30%;
+    height: auto;
+    margin: 50px auto 0;
+    overflow: hidden; }
+
+.slider-frameM3 ul {
+    display: flex;
+    padding: 0;
+    width: 200%;
+    animation: slide-de-2 12s infinite alternate ease-in-out; }
+
+.slider-frameM3 li {
+    width: 100%;
+    list-style: none; }
+
+.slider-frameM3 img {
+    width: 100%; }
+
+@keyframes slide-de-2 {
+    0% {
+    margin-left: 0; }
+    50% {
+    margin-left: 0; }
+    55% {
+    margin-left: -100%; }
+    100% {
+    margin-left: -100%; } }
+
+.SUV {
+    display: flex;
+    width: 30%;
+    height: auto;
+    margin: 50px auto 0;
+    overflow: hidden; }
+
+.SUV ul li {
+    list-style: none; }
