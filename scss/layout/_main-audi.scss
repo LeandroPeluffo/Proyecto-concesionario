@@ -6,6 +6,7 @@
 
 .audi {
     display: grid;
+    padding: 100px 100px 100px 100px;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 1fr);
     grid-column-gap: 0px;
