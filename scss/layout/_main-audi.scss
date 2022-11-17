@@ -6,23 +6,13 @@
 
 .audi {
     display: grid;
-    padding: 100px 100px 100px 100px;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 1fr);
     grid-column-gap: 0px;
-    grid-row-gap: 0px; }
-
-.slider-frameA {
-        grid-area: 1 / 1 / 2 / 2; }
-    
-    .slider-frameA2 {
-        grid-area: 1 / 2 / 2 / 3; }
-    
-    .slider-frameA3 {
-        grid-area: 2 / 1 / 3 / 2; }
-    
-    .slider-frame4 {
-        grid-area: 2 / 2 / 3 / 3; }
+    grid-row-gap: 0px;
+    grid-template-areas: 
+    "slider-frameA slider-frameA2"
+    "slider-frameA3 slider-frameA4"; }
 
         
 .slider-frameA {

@@ -1,13 +1,58 @@
 @media (max-width: 768px) {
-    .mercedes {
-      width: 768px;
-      grid-template-rows: repeat(4, 1fr);
-      grid-column-gap: 0px;
-      grid-row-gap: 0px;
-      grid-template-areas: 
-      "slider-frameM"
-      "slider-frameM2"
-      "slider-frameM3"
-      "SUV"; } 
-}
-
+  .logo{
+    display: none;}
+    
+    .navBar{
+      gap: 12px;
+      display: flex;
+      flex-direction: column;}
+      
+      .mercedes{
+        width: 600px;
+        grid-template-rows: repeat(4, 1fr);
+        grid-column-gap: 0px;
+        grid-row-gap: 0px;
+        grid-template-columns: auto;
+        grid-template-areas: 
+        "slider-frameM"
+        "slider-frameM2"
+        "slider-frameM3"
+        "SUV"; } 
+        
+        .audi{
+          grid-template-columns: repeat(1, 1fr);
+          grid-template-rows: repeat(4, 1fr);
+          grid-column-gap: 0px;
+          grid-row-gap: 0px;
+          grid-template-areas: 
+          "slider-frameA"
+          "slider-frameA2"
+          "slider-frameA3"
+          "slider-frameA4";}
+          
+          .mapas {
+            justify-content: center;
+            justify-items: center;
+            margin-top: 5%;
+            display: grid;
+            grid-template-columns: repeat(1, 1fr);
+            grid-template-rows: repeat(3, 1fr);
+            grid-column-gap: 0px;
+            grid-row-gap: 0px;
+            grid-template-areas: 
+            "avItalia"
+            "LuisHdH"
+            "agraciada";
+          }
+          .testDriveTexto {
+            width: 100%;
+            padding-left: 40px;
+            font-size: 4vw;
+            justify-items: start;
+          }
+          
+          iframe{
+            width: 200px;
+            height: 200px;
+          }
+        }
