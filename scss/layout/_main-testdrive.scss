@@ -10,10 +10,14 @@ form {
     font-size: 30px; }
 
 .testDriveTexto {
+    width: 100%;
     display: grid;
-    text-align: center;
-    line-height: 100px;
-    font-size: 40px; 
+    padding-left: 40px;
+    font-size: 40px;
+    line-height: 200%;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
 }
 
 .formContent{
@@ -22,16 +26,18 @@ form {
     width: 100%;
     max-width: 600px;
     padding: 0 30px;
-    label{
-        display: grid;
-        grid-auto-flow: column;
-        grid-template-columns: 25% 75%;
-        gap: 10px;
-        width: 100%;
-    }
+    font-size: 28px;
 }
 
-label .terminos{
+label{
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-columns: 25% 75%;
+    gap: 10px;
+    width: 100%;
+}
+
+.terminos{
     display: grid;
     grid-auto-flow: row;
     grid-template-columns: 75% 25%;
