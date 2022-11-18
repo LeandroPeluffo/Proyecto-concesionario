@@ -4,7 +4,7 @@ ul {
 
 form {
     justify-content: center;
-    margin: 150px 400px 200px 400px;
+    margin: 50px 10px;
     text-align: center;
     display: flex;
     font-size: 30px; }
@@ -15,3 +15,35 @@ form {
     line-height: 100px;
     font-size: 40px; 
 }
+
+.formContent{
+    display: grid;
+    gap: 30px;
+    width: 100%;
+    max-width: 600px;
+    padding: 0 30px;
+    label{
+        display: grid;
+        grid-auto-flow: column;
+        grid-template-columns: 25% 75%;
+        gap: 10px;
+        width: 100%;
+    }
+}
+
+label .terminos{
+    display: grid;
+    grid-auto-flow: row;
+    grid-template-columns: 75% 25%;
+}
+
+
+.termscheck{
+    width: 10px;
+}
+
+.boton{
+    width: 40px;
+    display: flex;
+}
+
